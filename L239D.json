@@ -1,0 +1,118 @@
+{
+    "name": "Motor Driver L293D",
+    "className": "L293D",
+    "pins": [
+      {
+        "x": 118,
+        "y": 9,
+        "name": "ENB"
+      },
+      {
+        "x": 118,
+        "y": 19,
+        "name": "IN4"
+      },
+      {
+        "x": 118,
+        "y": 29,
+        "name": "IN3"
+      },
+      {
+        "x": 118,
+        "y": 39,
+        "name": "IN2"
+      },
+      {
+        "x": 118,
+        "y": 49,
+        "name": "IN1"
+      },
+      {
+        "x": 118,
+        "y": 59,
+        "name": "ENA"
+      },
+      {
+        "x": 69,
+        "y": 3,
+        "name": "GND"
+      },
+      {
+        "x": 82,
+        "y": 3,
+        "name": "GND"
+      },
+      {
+        "x": 72,
+        "y": 117,
+        "name": "GND"
+      },
+      {
+        "x": 84,
+        "y": 117,
+        "name": "GND"
+      },
+      {
+        "x": 115,
+        "y": 77,
+        "name": "OUT 1"
+      },
+      {
+        "x": 115,
+        "y": 97,
+        "name": "OUT2"
+      },
+      {
+        "x": 115,
+        "y": 87,
+        "name": "OUT 3"
+      },
+{
+        "x":110,
+"y":73,
+"name":"OUT4"
+},
+{
+"x":123,
+"y":79,
+"name":" VCC1"
+},
+{
+"x":130,
+"y":83,
+"name":"VCC2"
+}
+],
+    "pointHalf": 4,
+    "draw": [
+      {
+        "type": "image",
+        "url": "assets/images/components/L293D.svg",
+        "width": 128,
+        "height": 128,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "simulation": {},
+    "info": {
+      "name": "L293D Dual Motor Driver",
+      "image": "https://www.mouser.in/ProductDetail/STMicroelectronics/L293D?qs=gr8Zi5OG3MgMJ1ICDzLQbg%3D%3D",
+      "Datasheet": ["https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF ","https://www.ti.com/lit/ds/symlink/l293.pdf", "many google sites"],
+      "Description": "L293D is a typical Motor driver or Motor Driver IC which allows DC motor to drive on either direction. L293D is a 16-pin IC which can control a set of two DC motors simultaneously in any direction. It means that you can control two DC motor with a single L293D IC. ",
+      "properties": {
+        "Double Motor Drive Chip": "L293D",
+        "Supply voltage, VCC1": "36V",
+"Output supply voltage, VCC2":"36V",
+"Maximum junction temperature": "150°C",
+        "Input voltage, V1 ": "7V",
+        "Logical Current": "0-36mA",
+        "Output current": "1.2A ",
+"OUTPUT CURRENT CAPABILITY PER CHANNEL": "600mA",
+"Operation temp. range": "0-70°C",
+        "Max Power at t=90°C ": "4W",
+        "Dimensions": "19.8 x 9.14 ",
+        "Weight": "20g"
+      }
+    }
+  }

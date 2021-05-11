@@ -1,0 +1,53 @@
+{
+	"name": "'Temperature Sensor DHT 11",
+	"className": "DHT 11",
+	"pins": [{
+			"x": -2,
+			"y": 32,
+			"name": "Power"
+		},
+		{
+			"x": 3,
+			"y": 32,
+			"name": "Vout"
+		},
+		{
+			"x": 5,
+			"y": 32,
+			"name": "GND"
+		}
+	],
+	"pointHalf": 4,
+	"draw": [{
+		"type": "image",
+		"url": "assets/images/components/TMP36.svg",
+		"width(in cm)": 35,
+		"height( in cm)": 73,
+		"x": 0,
+		"y": 0
+	}],
+	"simulation": {},
+	"info": {
+		"name": "Temperature sensor DHT 11",
+		"image": "https://www.itead.cc/wiki/DHT11_Humidity_Temperature_Sensor_Brick",
+		"Datasheet": "many different google sites",
+		"description": "The DHT11 is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed). Its fairly simple to use, but requires careful timing to grab data..",
+		"properties": {
+			"Supply Voltage": "3.3V or 5V",
+			"Humidity Measurement Range(%RH)": "20 to 95",
+			"Humidity Accuracy": "1°C to 2°C",
+			"Operating Temperature Range": " 0°C to 50°C ",
+			"dimensions": " 22.0mm X 20.5mm X 1.6mm",
+			"weight": "2.4g",
+			"resolution": "8bit",
+			"Offset Voltage": "0.5V",
+			"Output voltage ": "750mV/25°C",
+			"Accuracy": "±2°C ",
+			"Supply Current": "0.5mA to 2.5mA",
+			"Standby current": "60 µA max"
+
+
+
+		}
+	}
+}
